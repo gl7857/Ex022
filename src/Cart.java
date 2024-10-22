@@ -1,6 +1,5 @@
 public class Cart extends Light{
     private double chargingTime;
-
     public Cart(int carNumber,int age,int wheelsNumber,boolean shapeIsWheel,double emissionsPerMin,boolean hasEngine, double chargingTime){
         super(carNumber,age,wheelsNumber,shapeIsWheel,emissionsPerMin,hasEngine);
         this.chargingTime = chargingTime;
